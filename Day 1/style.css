@@ -1,0 +1,55 @@
+#greeting{
+    text-align: right;
+}
+.enterImg{
+    display: grid;
+    place-items: center;
+}
+#to-up{
+    position:relative;
+    left: 20px;
+    bottom: 20px;
+    margin-top: 100px;
+}
+#nxt{
+    text-align: right;
+    margin-right: 20px;
+}
+#wc{
+    margin-left: 600px;
+}
+#s-img{
+    text-align: center;
+    display: grid;
+
+}
+.to-center{
+    text-align: center;
+}
+#int{
+    text-align: center;
+}
+td{
+    padding: 10px;
+}
+table{
+    background-color:darkgrey;
+}
+.form{
+    display: inline-block;
+    text-align: center;
+    margin: 80px ;
+}
+#f2{
+    display: inline-block;
+    width: 450px;
+    margin-left: 600px; 
+    margin-top: 200px;
+    
+}
+td{
+    border: 2px solid black;
+}
+.marg{
+    margin: 10px;
+}

@@ -1,0 +1,76 @@
+.container{
+    background-color: beige;
+}
+.nav-bar{
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0%;
+    margin: 0%;
+}
+.nav-bar a{
+    display: block;
+    text-decoration: none;
+}
+.box1{
+    margin: 20px;
+    height: 40vh;
+    width: 40vw;
+    border: solid 5px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+
+}
+.footerr{
+    display: flex;
+    margin-top: auto;
+    position: absolute;
+    background-color: antiquewhite;
+    bottom: 0;
+    width: 100%;
+    justify-content: center;
+}
+.parent{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.pa{
+    display: flex;
+   justify-content: center;
+}
+.bb1{
+    border: solid 3px red;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.bb2{
+    border: solid 3px red;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 25px 25px 25px rgba(0, 0, 0, 3%);
+    transition: 0.3s ease;
+  position: relative;
+}
+.card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transform: scale(1.1);
+  }

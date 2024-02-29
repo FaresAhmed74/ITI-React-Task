@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="text-align: center;">
+ 
+    <form action="t1.html" class="form">
+        <table border="14px">
+            <tr>
+                <td> <label>First Name</label>
+                <td><input type="text" name="firstName"></td>
+            </tr>
+            <tr>
+                <td> <label>Last Name</label>
+                <td><input type="text" name="secName"></td>
+            </tr>
+            <tr>
+                <td rowspan="2">
+                    <label>gender</label>
+                </td>
+                <td><input type="radio" name="gender">Male</td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="gender">Female</td>
+            </tr>
+            <tr>
+               <td>
+                <label >Birthday</label>
+                <select name="month">
+                    <option value="" disabled selected>[Select a month]</option>
+                    <option value="">jan</option>
+                    <option value="">feb</option>
+                    <option value="">Mar</option>
+                </select>
+               </td>
+               <td>
+                <input type="text" placeholder="dd" name="day">
+                <input type="text" placeholder="yyyy" name="year">
+               </td>
+            </tr>
+            <tr>
+                <td colspan="2"><h2 id="int">Interests</h2></td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" name="sports">
+                    <label>Sports</label>
+                </td>
+                <td>
+                    <input type="checkbox" name="music">
+                    <label>Music</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" name="books">
+                    <label >Books</label>
+                </td>
+                <td>
+                    <input type="checkbox" name="CS">
+                    <label>Computer Stuff</label>
+                </td>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="fashion">
+                        <label>Fashion</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="movies">
+                        <label>Movies</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <div class="to-center"><a href="Home.html"><button>Submit</button></a></div>
+                    </td>
+                </tr>
+        </table>
+    </form>
+    <script src="t1.js"></script>
+</body>
+</html>

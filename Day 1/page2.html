@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="Home.html" id="f2">
+        <fieldset>
+            <legend>Log In</legend>
+            <label>Username:</label>
+            <input type="text" name="username">
+            <br>
+            <label >Password:</label>
+            <input type="password" name="pass" >
+            <br>
+            <label>Select your Location:</label>
+            <select name="location">
+                <optgroup label="Africa">
+                    <option >Egypt</option>
+                    <option >Egypt</option>
+                    <option >Namibia</option>
+                </optgroup>
+                <optgroup label="Europe">
+                    <option >France</option>
+                    <option >Russia</option>
+                    <option >UK</option>
+                </optgroup>
+                <optgroup label="North America" disabled>
+                    <option >canada</option>
+                    <option >mexico</option>
+                    <option >Usa</option>
+                </optgroup>
+            </select>
+            <br>
+            <input type="checkbox" name="remMe">
+            <label >RememberMe</label>
+            <br>
+           <div class="marg">
+            <input type="submit" value="Log In" >
+           </div>
+        </fieldset>
+    </form>
+</body>
+</html>
